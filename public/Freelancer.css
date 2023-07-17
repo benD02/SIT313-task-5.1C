@@ -1,0 +1,71 @@
+.featured-freelancers {
+  padding: 40px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: large;
+}
+
+.featured-customer {
+  padding: 40px;
+  background-image: url('./images/customerBackground.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: large;
+}
+
+.freelancer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.freelancer-card {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.freelancer-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.freelancer-name {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.freelancer-description {
+  margin-top: 10px;
+}
+
+.freelancer-rating {
+  margin-top: 10px;
+}
+
+.see-more-button {
+  margin-top: 20px;
+  background-color: #007bff; /* Set the desired color */
+  color: #fff; /* Set the text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.line-divider {
+  width: 20%;
+  height: 2px;
+  background-color: #000000;
+  margin: 40px auto; /* Increase the margin value for more space */
+  margin-top: 30px;
+  margin-bottom: 80px;
+}

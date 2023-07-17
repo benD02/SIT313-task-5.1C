@@ -1,0 +1,81 @@
+/* CSS styles for the navigation bar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px; /* Adjust the padding values as needed */
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #000000;
+    margin-right: 20px;
+  }
+  
+  .navbar h1 {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin: 0;
+    font-size: 50px;
+    color: aqua;
+    font-family: Verdana, Geneva, sans-serif;
+  }
+  
+  .header-image {
+    position: relative;
+  }
+  
+  .header-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .header-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s;
+  }
+  
+  .header-image:hover::after {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .welcome-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    z-index: 1;
+    font-size: 20px;
+
+  }
+  
+  .header-image:hover .welcome-message {
+    opacity: 1;
+  }
+  
+  .content {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
