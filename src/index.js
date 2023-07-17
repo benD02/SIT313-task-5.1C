@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './public/homepage.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import jobPage from './jobPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
